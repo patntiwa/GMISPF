@@ -1,0 +1,168 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+copyright,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+copyright,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+.fonddepage
+{
+  background:url(./images/IMG_20190903_153008.jpg) center no-repeat;
+  background-size:100% 100%; 
+  width: 100%;
+}
+
+
+.corps{
+  padding:6%;
+  height:50%;
+  width: 100%; 
+  top:5%;
+}
+
+
+
+.form-style{
+	margin:10px; 
+	font-size:20px; 
+}
+
+
+.contenu{
+    width:600px;
+    margin:0 auto;
+}
+form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 60px;
+    width: 40%;
+    margin: auto;
+    border: 3px solid #984e04;
+}
+
+.tableau{
+   width: 100%;
+   padding: 3%;
+
+}
+
+input[type=text],input[type=password],input[type=email],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #984e04;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color:#f2bc86;
+}
