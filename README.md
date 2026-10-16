@@ -275,3 +275,17 @@ npm run test:ui
 ## 10. Avertissement de Sécurité sur l'Historique Git
 
 > **Important :** L'ancienne version du projet stockait des identifiants et des sauvegardes SQL en clair dans ses commits initiaux (`dfa9761a...`). Bien que ces fichiers aient été supprimés de la branche active de la V2, **tout mot de passe ou compte ayant figuré dans l'ancien historique doit être immédiatement changé et révoqué**.
+
+---
+
+## 11. Tâches Restantes et Feuille de Route (V2.1+)
+
+Un document d'audit dédié recense exhaustivement les tâches différées, les limites actuelles et la feuille de route :
+👉 **[Consulter le document complet : docs/TACHES_RESTANTES.md](docs/TACHES_RESTANTES.md)**
+
+### Résumé des tâches différées pour la V2.1 / V3 :
+1. **Notifications en temps réel (E-mail / SMS) :** Signalement visuel présent dans l'interface, mais l'envoi externe d'e-mails ou de SMS nécessite la configuration d'un relais SMTP ou d'une passerelle locale BEAC.
+2. **Téléversement de pièces jointes / photos :** Support des photos avant/après intervention et des devis PDF avec vérification antivirus.
+3. **Authentification 2FA / TOTP & LDAP :** Extension pour l'intégration à l'annuaire d'entreprise Active Directory de la BEAC.
+4. **Gestion de stock avancée :** Suivi quantitatif et valorisation financière du matériel.
+5. **Purge définitive de l'historique Git :** Élimination définitive des anciens secrets du commit initial de 2022 via `git-filter-repo` (nécessite les droits d'administration du propriétaire sur GitHub).
