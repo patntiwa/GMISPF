@@ -1,0 +1,8 @@
+Require all granted
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule ^assets/[a-zA-Z0-9._-]+\.(css|js|svg|woff2)$ - [END]
+RewriteRule ^$ index.php [END]
+RewriteRule ^index\.php$ - [END]
+RewriteRule . - [R=404,END]

@@ -1,0 +1,2 @@
+# Fail closed if the repository root is mistakenly served by Apache.
+Require all denied
